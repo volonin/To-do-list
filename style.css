@@ -1,0 +1,90 @@
+body{
+    background-color: #e1e1e1;
+}
+.window{
+    margin: auto;
+    margin-top: 70px;
+    width: 70%;
+    min-height: 400px;
+    border-radius: 40px;
+    background-color: #38404B;
+    padding: 30px;
+}
+.window header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+
+}
+.window header .input{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    width: 40%;
+    box-shadow: 1px 1px 2px rgba(66, 75, 88, 0.3), -1px -1px 2px rgba(46, 53, 62, 0.5), -3px 3px 6px rgba(46, 53, 62, 0.2), 3px -3px 6px rgba(46, 53, 62, 0.2), -3px 3px 6px rgba(66, 75, 88, 0.9),3px 3px 8px rgba(46, 53, 62, 0.9);
+}
+.window header .input #add-task{
+    width: 85%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #38404B;
+    border: 0px;
+    color: rgba(148, 173, 207, 0.7);
+}
+.window .completed{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgba(148, 173, 207, 0.7);
+    min-height: 40px;
+    width: 40%;
+    border-radius: 15px;
+    margin-top: 40px;
+    background-color: #38404B;
+    box-shadow: 1px 1px 2px rgba(64, 74, 86, 0.3), -1px -1px 2px rgba(48, 54, 64, 0.5), -5px 5px 10px rgba(48, 54, 64, 0.2), 5px -5px 10px rgba(48, 54, 64, 0.2), -5px -5px 10px rgba(64, 74, 86, 0.9), 5px 5px 13px rgba(48, 54, 64, 0.9);
+}
+.window .complete{
+    text-decoration: line-through;
+}
+.window .completed img{
+    height: 15px;
+    margin-left: 17px;
+    border-radius: 10px;
+}
+.window .completed span{
+    margin: 15px 0 15px 20px;
+}
+.window header .input button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: #38404B;
+    border: 0px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.window header .input button:hover{
+    background-color: #e1e1e1;
+}
+.window header .input button img{
+    height: 15px;
+}
+.window main{
+    width: 85%;
+    margin: auto;
+    margin-top: 70px;
+}
+.window footer{
+    width: 85%;
+    margin: auto;
+    margin-top: 40px;
+    color: rgba(148, 173, 207, 0.7);
+}
+.window footer p{
+    font-size: 24px;
+}
