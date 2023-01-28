@@ -6,6 +6,12 @@ let input = document.querySelector("#add-task");
 let footer = document.querySelector("footer");
 let x;
 
+document.addEventListener("keydown", function (e){
+    if (e.code == "Enter"){
+        addContent(input.value);
+        input.value = "";
+    }
+})
 
 addTask.addEventListener("click", function (){
     if (input.value === ""){
