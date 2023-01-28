@@ -6,6 +6,7 @@ let input = document.querySelector("#add-task");
 let footer = document.querySelector("footer");
 let x;
 
+
 addTask.addEventListener("click", function (){
     if (input.value === ""){
         alert("Введите Task");
@@ -28,6 +29,13 @@ function addContent (value){
     text.innerHTML = value;
     text.classList = "text";
     div.append(text);
+    let buttun = document.createElement("button");
+    buttun.classList.add("remuve");
+    div.append(buttun);
+    buttun.addEventListener("click", function (e){
+        console.log(e.target)
+        e.target.parentElement.remove();
+    })
     div.addEventListener("click", function (e){
         e.target.style.backgroundColor = "#94ADCF";
         if (completed){
@@ -66,6 +74,13 @@ function addContentInFooter (){
     text.classList = "text";
     div.append(text);
     img.style.backgroundColor = "#94ADCF";
+    let buttun = document.createElement("button");
+    buttun.classList.add("remuve");
+    div.append(buttun);
+    buttun.addEventListener("click", function (e){
+        console.log(e.target)
+        e.target.parentElement.remove();
+    })
     div.addEventListener("click", function (e){
         e.target.parentElement.classList.add("notComplete");
         e.target.parentElement.classList.remove("complete");

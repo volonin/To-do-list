@@ -56,6 +56,7 @@ body{
 }
 .window .completed span{
     margin: 15px 0 15px 20px;
+    width: 70%;
 }
 .window header .input button{
     display: flex;
@@ -83,8 +84,20 @@ body{
     width: 85%;
     margin: auto;
     margin-top: 40px;
-    color: rgba(148, 173, 207, 0.7);
+    color: #94adcf;
 }
 .window footer p{
     font-size: 24px;
+}
+.window .remuve{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    background-color: #d30000;
+    border: 0px;
+    transition: 0.5s;
+    border-radius: 5px;
 }
