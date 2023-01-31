@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c101d9b-33d4-4a2c-9f28-5864773bd65f" name="Changes" comment="adding a delete button">
+    <list default="true" id="5c101d9b-33d4-4a2c-9f28-5864773bd65f" name="Changes" comment="adding input to Enter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/Ellipse 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Img/Ellipse 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/Group.png" beforeDir="false" afterPath="$PROJECT_DIR$/Img/Group.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +61,8 @@
       <workItem from="1674853642240" duration="76000" />
       <workItem from="1674853730433" duration="175000" />
       <workItem from="1674887185171" duration="1746000" />
-      <workItem from="1674889079489" duration="599000" />
+      <workItem from="1674889079489" duration="1374000" />
+      <workItem from="1675195986968" duration="437000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1674853788324</created>
@@ -73,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674888925354</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding input to Enter">
+      <created>1674889724099</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674889724099</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +105,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="adding a delete button" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding a delete button" />
+    <MESSAGE value="adding input to Enter" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding input to Enter" />
   </component>
 </project>

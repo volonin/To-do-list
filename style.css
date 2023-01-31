@@ -1,14 +1,50 @@
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+@keyframes pulse1 {
+    from {
+        background-size: 120%;
+    }
+    50% {
+        background-size: 110%;
+    }
+    to {
+        background-size: 120%;
+    }
+}
+@font-face {
+    font-family: Ubuntu-Medium;
+    src: url(Fonts/Ubuntu-Medium.ttf);
+}
+@font-face {
+    font-family: Ubuntu-Regular;
+    src: url(Fonts/Ubuntu-Regular.ttf);
+}
 body{
-    background-color: #e1e1e1;
+    background-color: #EAC7C7;
+    background-image: url("Img/imgonline-com-ua-Replace-color-pWUimM9migkfM.jpg");
+    animation: pulse1 25s ease-in-out infinite;
+    background-position: center;
 }
 .window{
     margin: auto;
-    margin-top: 70px;
+    margin-top: 80px;
     width: 70%;
     min-height: 400px;
     border-radius: 40px;
-    background-color: #38404B;
+    background-color: #EAC7C7;
     padding: 30px;
+    padding-bottom: 40px;
+    transition: 0.4s;
+    border: 5px double #ecb8b8;
 }
 .window header{
     width: 100%;
@@ -20,34 +56,54 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #A0C3D2;
     margin: auto;
     margin-top: 40px;
+    margin-right: 60px;
     border-radius: 10px;
     width: 40%;
-    box-shadow: 1px 1px 2px rgba(66, 75, 88, 0.3), -1px -1px 2px rgba(46, 53, 62, 0.5), -3px 3px 6px rgba(46, 53, 62, 0.2), 3px -3px 6px rgba(46, 53, 62, 0.2), -3px 3px 6px rgba(66, 75, 88, 0.9),3px 3px 8px rgba(46, 53, 62, 0.9);
+    transition: 0.4s;
+    /*box-shadow: 1px 1px 2px rgba(66, 75, 88, 0.3), -1px -1px 2px rgba(46, 53, 62, 0.5), -3px 3px 6px rgba(46, 53, 62, 0.2), 3px -3px 6px rgba(46, 53, 62, 0.2), -3px 3px 6px rgba(66, 75, 88, 0.9),3px 3px 8px rgba(46, 53, 62, 0.9);*/
 }
-.window header .input #add-task{
+.window header .input .add-task::placeholder{
+    color: #F7F5EB;
+    font-family: Ubuntu-Regular;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.window header .input .add-task:focus{
+    outline: 0;
+    height: 55px;
+    width: 90%;
+}
+.window header .input .add-task{
     width: 85%;
-    height: 40px;
+    height: 45px;
     border-radius: 10px;
-    background-color: #38404B;
+    background-color: #A0C3D2;
+    font-size: 15px;
     border: 0px;
-    color: rgba(148, 173, 207, 0.7);
+    color: #F7F5EB;
+    transition: 0.4s;
+    font-family: Ubuntu-Medium;
+    /*margin-left: 5px;*/
 }
 .window .completed{
     display: flex;
     justify-content: left;
     align-items: center;
-    color: rgba(148, 173, 207, 0.7);
+    color: #F7F5EB;
     min-height: 40px;
-    width: 40%;
+    width: 70%;
     border-radius: 15px;
+    font-family: Ubuntu-Medium;
+    font-size: 16px;
     margin-top: 40px;
-    background-color: #38404B;
-    box-shadow: 1px 1px 2px rgba(64, 74, 86, 0.3), -1px -1px 2px rgba(48, 54, 64, 0.5), -5px 5px 10px rgba(48, 54, 64, 0.2), 5px -5px 10px rgba(48, 54, 64, 0.2), -5px -5px 10px rgba(64, 74, 86, 0.9), 5px 5px 13px rgba(48, 54, 64, 0.9);
+    background-color: #A0C3D2;
 }
 .window .complete{
-    text-decoration: line-through;
+    text-decoration: 2px line-through;
+    color: #F7F5EB;
 }
 .window .completed img{
     height: 15px;
@@ -56,21 +112,25 @@ body{
 }
 .window .completed span{
     margin: 15px 0 15px 20px;
-    width: 70%;
+    width: 55%;
 }
 .window header .input button{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
+    margin-right: 5px;
     width: 40px;
-    background-color: #38404B;
+    background-color: #A0C3D2;
     border: 0px;
-    transition: 0.5s;
+    transition: 0.4s;
     border-radius: 10px;
 }
+.window header .input:hover{
+    box-shadow: 0px 0px 15px #A0C3D2;
+}
 .window header .input button:hover{
-    background-color: #e1e1e1;
+    background-color: #F7F5EB;
 }
 .window header .input button img{
     height: 15px;
@@ -78,26 +138,69 @@ body{
 .window main{
     width: 85%;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.window .left{
+    width: 50%;
 }
 .window footer{
     width: 85%;
     margin: auto;
-    margin-top: 40px;
     color: #94adcf;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 .window footer p{
     font-size: 24px;
+    font-family: Ubuntu-Regular;
 }
 .window .remuve{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20px;
-    width: 20px;
-    margin-left: 20px;
-    background-color: #d30000;
+    height: 15px;
+    width: 15px;
+    margin-left: 40px;
     border: 0px;
-    transition: 0.5s;
-    border-radius: 5px;
+    transition: 0.3s;
+    border-radius: 10px;
+    background-color: #ff6c6c;
+}
+.window .remuve:hover{
+    animation: pulse 1s ease-in-out infinite;
+}
+.window header .date-box{
+    width: 30%;
+    display: flex;
+    justify-content: left;
+}
+.window header .date-box .date{
+    height:40px;
+    border: 0;
+    width: 20%;
+    text-align: center;
+    outline: none;
+    color: #F7F5EB;
+    font-size: 14px;
+    font-family: Ubuntu-Medium;
+    margin: 40px 20px 0 0;
+}
+.window header .date-box .date:focus{
+    height: 50px;
+}
+.window .date-p{
+    color: #F7F5EB;
+    font-size: 16px;
+    font-family: Ubuntu-Medium;
+}
+.window .date::placeholder{
+    color: #F7F5EB;
+    font-family: Ubuntu-Regular;
+    padding-left: 10px;
+    font-size: 12px;
+    text-align: center;
 }
