@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c101d9b-33d4-4a2c-9f28-5864773bd65f" name="Changes" comment="adding input to Enter">
+    <list default="true" id="5c101d9b-33d4-4a2c-9f28-5864773bd65f" name="Changes" comment="adding additional files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/Ellipse 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Img/Ellipse 1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/Group.png" beforeDir="false" afterPath="$PROJECT_DIR$/Img/Group.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +58,9 @@
       <workItem from="1674853730433" duration="175000" />
       <workItem from="1674887185171" duration="1746000" />
       <workItem from="1674889079489" duration="1374000" />
-      <workItem from="1675195986968" duration="437000" />
+      <workItem from="1675195986968" duration="532000" />
+      <workItem from="1675197017563" duration="225000" />
+      <workItem from="1675492887967" duration="765000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1674853788324</created>
@@ -85,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674889724099</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding a due date">
+      <created>1675196890120</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675196890120</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adding additional files">
+      <created>1675197079347</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675197079347</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +118,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="adding a delete button" />
     <MESSAGE value="adding input to Enter" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding input to Enter" />
+    <MESSAGE value="adding a due date" />
+    <MESSAGE value="adding additional files" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding additional files" />
   </component>
 </project>
